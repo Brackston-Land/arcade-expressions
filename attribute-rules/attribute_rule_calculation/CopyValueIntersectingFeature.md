@@ -38,7 +38,7 @@ if (IsEmpty(intersected_feature) || intersected_feature == null)
     return;
 }
 // If the intersected feature is null, return the original value
-if (IsEmpty(intersected_feature.valueToCopy))
+if (IsEmpty(intersected_feature[intersecting_field]))
 {
     return;
 }
